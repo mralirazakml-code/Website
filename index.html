@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Stay Hotel</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+background:#0a4d68;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-size:18px;
+}
+
+.hero{
+height:500px;
+background:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h2{
+font-size:50px;
+background:rgba(0,0,0,0.5);
+padding:20px;
+border-radius:10px;
+}
+
+section{
+padding:60px 40px;
+}
+
+.about{
+text-align:center;
+}
+
+.about h2{
+color:#0a4d68;
+margin-bottom:20px;
+}
+
+.rooms{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.room{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.room:hover{
+transform:scale(1.05);
+}
+
+.room img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.room h3{
+padding:10px;
+color:#0a4d68;
+}
+
+.room p{
+padding:0 10px 20px;
+}
+
+.services{
+background:#0a4d68;
+color:white;
+text-align:center;
+}
+
+.services ul{
+list-style:none;
+font-size:20px;
+line-height:2;
+}
+
+.booking{
+text-align:center;
+}
+
+.booking input,
+.booking button{
+width:80%;
+max-width:400px;
+padding:12px;
+margin:10px;
+font-size:16px;
+}
+
+.booking button{
+background:#0a4d68;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.booking button:hover{
+background:#06364b;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Royal Stay Hotel</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Rooms</a>
+<a href="#">Services</a>
+<a href="#">Booking</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>Luxury Hotel for a Comfortable Stay</h2>
+</div>
+
+<section class="about">
+<h2>About Our Hotel</h2>
+<p>
+Welcome to Royal Stay Hotel. We provide luxury rooms,
+excellent customer service, free Wi-Fi, delicious food,
+and a peaceful environment for families and business travelers.
+</p>
+</section>
+
+<section>
+<h2 style="text-align:center;color:#0a4d68;margin-bottom:30px;">Our Rooms</h2>
+
+<div class="rooms">
+
+<div class="room">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800">
+<h3>Deluxe Room</h3>
+<p>King Size Bed, Free Wi-Fi, Air Conditioner, Breakfast Included.</p>
+</div>
+
+<div class="room">
+<img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800">
+<h3>Executive Room</h3>
+<p>Luxury Interior, Smart TV, Balcony, Mini Bar.</p>
+</div>
+
+<div class="room">
+<img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800">
+<h3>Family Suite</h3>
+<p>Perfect for families with spacious rooms and beautiful views.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="services">
+<h2>Our Services</h2>
+
+<ul>
+<li>✓ Free Wi-Fi</li>
+<li>✓ Swimming Pool</li>
+<li>✓ Restaurant</li>
+<li>✓ Gym</li>
+<li>✓ Spa</li>
+<li>✓ Airport Pickup</li>
+</ul>
+
+</section>
+
+<section class="booking">
+
+<h2 style="color:#0a4d68;">Book Your Room</h2>
+
+<form>
+<input type="text" placeholder="Your Name" required><br>
+
+<input type="email" placeholder="Email Address" required><br>
+
+<input type="date" required><br>
+
+<input type="date" required><br>
+
+<button>Book Now</button>
+
+</form>
+
+</section>
+
+<footer>
+<h3>Royal Stay Hotel</h3>
+<p>Email: info@royalstayhotel.com</p>
+<p>Phone: +92 300 1234567</p>
+<p>© 2026 Royal Stay Hotel. All Rights Reserved.</p>
+</footer>
+
+</body>
+</ht
